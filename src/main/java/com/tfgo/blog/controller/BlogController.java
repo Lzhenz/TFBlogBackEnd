@@ -19,8 +19,10 @@ public class BlogController {
 
         Map<String, String> blog = new HashMap<>();
         blog.put("title", "TFGO 手写后端成功");
+        blog.put("summary","这是第二次调试完成前后的联系了");
         blog.put("author", "tengfei");
         blog.put("createTime", "2026-04-22");
+        blog.put("category" , "技术");
 
         list.add(blog);
 
